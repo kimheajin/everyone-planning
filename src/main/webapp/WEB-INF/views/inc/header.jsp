@@ -13,6 +13,5 @@
 	<title>The Planning</title>
 </head>
 <body>
-	
 </body>
 </html>
