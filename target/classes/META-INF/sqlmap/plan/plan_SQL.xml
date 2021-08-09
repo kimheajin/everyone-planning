@@ -4,9 +4,9 @@
 	<insert id="insert" parameterType="hashMap" useGeneratedKeys="true" keyProperty="plan_id">  
     <![CDATA[
 	    insert into plan
-	    (title, local, site, price, people_cnt) 
+	    (title, local, site, price, people_cnt, login_id)
 	    values
-	    (#{title}, #{local}, #{site}, #{price}, #{people_cnt})
+	    (#{title}, #{local}, #{site}, #{price}, #{people_cnt}, #{login_id})
     ]]>
 	</insert>
 	<select id="select_detail" parameterType="hashMap" resultType="hashMap">

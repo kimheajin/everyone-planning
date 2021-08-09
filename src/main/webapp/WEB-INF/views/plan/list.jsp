@@ -10,17 +10,17 @@
 <title>Plan list</title>
 </head>
 <body>
-	<div >
+	<div>
 		<p>
 			<form>
-				<input type="text" placeholder="검색" name="keyword" value="${keyword}" />
+				<input class="serch" type="text" placeholder="검색" name="keyword" value="${keyword}" />
 				<input type="submit" value="검색" />
 			</form>
 		</p>
 	</div>
 
 	<h1>여행 목록</h1>
-	<table>
+	<table class="travelTable">
 		<thead>
 			<tr>
 				<td>제목</td>

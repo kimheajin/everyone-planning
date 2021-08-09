@@ -10,6 +10,19 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+.main{
+	text-align: center;
+}
+
+.mainTitle{
+	
+	font-size:30px;	
+}
+
+.theTime{
+	text-align: right;
+}
+
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -24,6 +37,25 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+#modal_open_btn{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#modal_open_btn:hover {
+  font-size: 20px;
 }
 
 /* Change color on hover */
@@ -85,3 +117,48 @@ body {
   cursor: pointer;
 }
 
+/* Login Page CSS*/
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+div.loginInput {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* List Page CSS*/
+
+input.serch{
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.travelTable{
+	padding:20px;
+	border:1px solid black;
+}

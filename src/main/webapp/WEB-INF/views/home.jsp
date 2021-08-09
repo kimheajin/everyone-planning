@@ -14,18 +14,17 @@
 </head>
 <body>
 
-	<h1>당신의 여행 계획을 세워보세요!</h1>
-	<h2>The Planning</h2>
-	
-	<h3>오늘은 <fmt:formatDate value="${serverTime}" pattern="yyyy-MM-dd E" />요일 입니다.</h3>
-	
-	<div class="topnav">
-		<p><a href="/list">목록으로</a></p>	
-		<!-- Trigger/Open The Modal -->
-		<button id="modal_open_btn">로그인</button>
+	<div class="main">
+		<p class="mainTitle">The Planning</p>
+		<p class="theTime">오늘은 <fmt:formatDate value="${serverTime}" pattern="yyyy-MM-dd E" />요일 입니다.</p>
 	</div>
-	
 
+	<div class="topnav">
+		<p><a href="/list">여행목록</a></p>
+		<!-- Trigger/Open The Modal -->
+	</div>
+	<button id="modal_open_btn">로그인</button>
+	
 	<!-- The Modal -->
 	<div id="loginModal" class="modal">
 
@@ -37,12 +36,12 @@
 		</div>
 	</div>
 	<div class="content">
-	  <h2>CSS Template</h2>
-	  <p>A topnav, content and a footer.</p>
+		<p>당신의 여행 계획을 세워보세요!</p>
+		<p>You can Travel!!</p>
 	</div>
 	
 	<div class="footer">
-	  <p>Footer</p>
+	  <p></p>
 	</div>
 </body>
 <script>
